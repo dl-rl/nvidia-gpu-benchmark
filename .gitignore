@@ -164,3 +164,4 @@ cython_debug/
 *.pt
 data/custom.yaml
 runs/
+*_epochs___.txt
