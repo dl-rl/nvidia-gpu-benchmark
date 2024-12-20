@@ -15,7 +15,7 @@ except:
 ############# Training #############
 model = YOLO("yolo11l.pt")  # pretrained YOLO11n model
 start_time = time.time()
-results = model.train(data="data/custom.yaml", epochs=epochs, imgsz=640, batch=batch, val=False, save=False, amp=False, patience=0, device=device)
+results = model.train(data="data/custom.yaml", epochs=epochs, imgsz=640, batch=batch, val=False, save=False, patience=0, device=device)
 stop_time = time.time()
 training_time_in_seconds = stop_time - start_time
 
