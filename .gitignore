@@ -1,3 +1,6 @@
+# Copyright (c) 2024, DL-RL Inc.
+# All rights reserved.
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

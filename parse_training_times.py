@@ -1,3 +1,6 @@
+# Copyright (c) 2024, DL-RL Inc.
+# All rights reserved.
+
 import sys
 
 epochs_1 = int(sys.argv[1])

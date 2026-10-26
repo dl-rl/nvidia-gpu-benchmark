@@ -1,3 +1,6 @@
+# Copyright (c) 2024, DL-RL Inc.
+# All rights reserved.
+
 import yaml
 import os
 cwd = os.getcwd()

@@ -1,3 +1,6 @@
+# Copyright (c) 2024, DL-RL Inc.
+# All rights reserved.
+
 cd "$(dirname "$0")"
 SCRIPT_DIR="$(pwd)"
 
@@ -6,7 +9,7 @@ rm -rf runs
 env/bin/python3 prepare_yaml.py
 
 ################################################################################################################################
-# For training, YOLO doesn't give a per-epoch timing in the results. One way to get this is to parse the terminals outputs.
+# For training, YOLO doesn't give a per-epoch timing in the results. One way to get this is to parse the terminal's outputs.
 # However, here I am running the training phases for two different epoch lengths, and then finding the difference.
 # This removes the constant-time things like loading the model, preparing the data, etc.
 # Then I'm taking the mean of the difference.

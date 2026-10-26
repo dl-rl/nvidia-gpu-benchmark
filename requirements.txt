@@ -1,2 +1,5 @@
+# Copyright (c) 2024, DL-RL Inc.
+# All rights reserved.
+
 ultralytics==8.3.51
 pyyaml

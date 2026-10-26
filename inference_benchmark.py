@@ -1,3 +1,6 @@
+# Copyright (c) 2024, DL-RL Inc.
+# All rights reserved.
+
 from ultralytics import YOLO
 import sys
 
@@ -7,7 +10,7 @@ except:
   device = 0
 
 # Load a model
-model = YOLO("yolo11l.pt")  # pretrained YOLO11n model
+model = YOLO("yolo11l.pt")
 
 ############# Inference #############
 inference_n_passes = 50
