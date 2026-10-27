@@ -1,5 +1,7 @@
 # Copyright (c) 2024, DL-RL Inc.
 # All rights reserved.
-
+torch==2.6.0 --index-url https://download.pytorch.org/whl/cu118
+torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu118
+torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu118
 ultralytics==8.3.51
 pyyaml
